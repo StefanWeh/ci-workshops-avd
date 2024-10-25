@@ -107,4 +107,13 @@ banners:
   Du kannst nicht vorbei. Es sei denn du bist autorisiert. Dann darfst du vorbei.
   EOF
 
+# Syslog
+logging:
+  vrfs:
+    - name: default
+      source_interface: Management0
+      hosts:
+        - name: 10.200.0.108
+        - name: 10.200.1.108
+
 
